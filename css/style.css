@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+	overflow: hidden;
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.main{
+	max-width: 390px;
+}
+.subtitle{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.list-item{
+	margin: 0 0 12px 0;
+	padding: 0 0 0 30px;
+}
+.list-item::before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/check.svg") 0 0 / 16px no-repeat;
+	margin: 0 16px -2px -30px;
+	/*background: url("../img/check.svg") 0 6px no-repeat;*/
+	/*padding: 0 0 0 32px;*/
+}
+.list-item:last-child{
+	margin-bottom: 0;
+}
+.button{
+	margin-bottom: 100px;
+}
+.link{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 314%;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 20px 32px;
+}
+.maple{
+	font-family: 'Taviraj', serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 111%;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+.maple::after{
+	content: "";
+	display: block;
+	width: 65px;
+	height: 0px;
+	border: 1px solid #333333;
+	margin: 8px 0 0 0;
+}
